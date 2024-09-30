@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="TestA">
+    <classes>
+      <class name="Listeners_Implementation.Verify_LogOut"/>
+      </classes>
+      </test>
+       <test thread-count="5" name="TestB">
+        <classes>
+      <class name="Listeners_Implementation.TutorialNinjaDemo_ValidLogin"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="TestC">
+      <classes>
+      <class name="Listeners_Implementation.Ninjatutorials_InvalidLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
